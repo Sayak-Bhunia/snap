@@ -1,33 +1,24 @@
-# Python bytecode files
-*.pyc
-*.pyo
-__pycache__/
-
-# Environment variables
-.env
-
-# Virtual environment directory (if you are using one)
-venv/
-env/
-
-# Flask specific
-instance/
-
-# PyCharm or VSCode editor config files (if using these IDEs)
-.idea/
-.vscode/
-
-# MacOS system files
-.DS_Store
-
-# Windows system files
-Thumbs.db
-
-# Logs or temporary files
+# Logs
+logs
 *.log
-*.pot
-*.pyc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Backup files
-*.bak
-*.swp
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
